@@ -36,6 +36,7 @@ fun main() {
     val num = readLine()!!.toInt()
     var arrayOfPeople: MutableList<String> = ArrayList()
 
+    
     println("Enter all people:")
     repeat(num) {
         arrayOfPeople.add(readLine()!!)
