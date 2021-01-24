@@ -1,5 +1,12 @@
-// TODO: provide three functions here
+fun identity(num: Int): Int = num
+fun half(num: Int): Int = num / 2
+fun zero(num: Int): Int = 0
 
 fun generate(functionName: String): (Int) -> Int {
-    // TODO: provide implementation here
+    return when (functionName) {
+        "identity" -> ::identity
+        "half" -> ::half
+        "zero" -> ::zero
+        else -> ::zero
+    }
 }
