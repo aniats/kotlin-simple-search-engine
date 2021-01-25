@@ -5,5 +5,5 @@ files:
   text: 'val lambda: (Int, Int) -> Int = TODO("Provide implementation")'
   learner_created: false
 feedback_link: https://hyperskill.org/learn/step/6160#comment
-status: Unchecked
+status: Solved
 record: -1
