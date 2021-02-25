@@ -1,0 +1,24 @@
+type: code
+files:
+- name: src/Main.kt
+  visible: true
+  text: |-
+    fun main() {
+        // Write some code to cause an exception
+    }
+    //Don't touch code below
+    fun main(args: Array<String>) {
+        try {
+            main()
+            println("WA")
+        } catch (t: Throwable) {
+            println("OK")
+        }
+    }
+  learner_created: false
+feedback_link: https://hyperskill.org/learn/step/7247#comment
+status: Solved
+feedback:
+  message: <html>Correct solution</html>
+  time: Thu, 25 Feb 2021 13:45:03 UTC
+record: -1
